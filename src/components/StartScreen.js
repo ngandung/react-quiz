@@ -1,5 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
-
 export default function StartScreen({totalQuestion = 0, dispatch}) {
     return <div className="start">
         <h2>Welcome to The React Quiz</h2>

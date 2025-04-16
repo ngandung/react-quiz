@@ -115,6 +115,10 @@ progress {
   border-radius: 100px;
 }
 
+::-moz-progress-bar {
+  background-color: var(--color-theme);
+}
+
 .btn {
   display: block;
   font-family: inherit;
